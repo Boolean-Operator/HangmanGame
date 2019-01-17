@@ -24,9 +24,10 @@
 -webpack.config.js
 
 
-### Future Versions
+### Updates and Future Versions
 
 - Add line break on longer puzzles
+- Game over / Congratualtions large splash on screen
 - Alt version to become Wheel of Fortune game
   - Add Score keeping and multiple players
   - Add prize wheel for semi random points
