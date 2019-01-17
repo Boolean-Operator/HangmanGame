@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate",
-  "version": "1.0.0",
-  "description": "",
+  "name": "hangman",
+  "version": "1.0.1",
+  "description": "puzzle/game - guess the word or phrase",
   "main": "input.js",
   "scripts": {
     "dev-server": "webpack-dev-server --mode development",
