@@ -26,13 +26,12 @@
 
 ### Future Versions
 
-- Create new Repo for project
-- Add instructions on game board (Use keyboard to play)
+- Add line break on longer puzzles
 - Alt version to become Wheel of Fortune game
-- Add Score keeping and multiple players
-- Add prize wheel for semi random points
-- Change letter reveal to flipping tiles (cards)
+  - Add Score keeping and multiple players
+  - Add prize wheel for semi random points
+  - Change letter reveal to flipping tiles (cards)
+  - Update UI
+    - Annimated Pat and Vanna ?
+    - Change backgound, add music or applause sound
 - Mobile version
-- Update UI
-  - ? Annimated Vanna 
-  - Change backgound, add music or applause sound
