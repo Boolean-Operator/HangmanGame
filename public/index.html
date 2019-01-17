@@ -12,30 +12,34 @@
 
 <body>
 
-  <div class="gameBoard">
-
-    <div class="gameTitle">
-      <h1>Hangman Game</h1>
-    </div>
-
-    <div id="puzzle" class="puzzle"></div>
-    <div class="gameInfo">
-      <p id="usedLetters" class="gameElements">Letters Used :</p>
-      <p id="status">Remaining Guesses :</p>
-      <label for="puzzleWordCount">Word Count :</label>
-      <span id="rangeValue">#</span>
-
-      <div>
-        <button id="reset" class="button">New Game</button>
-        <input type="range" id="wordCount" name="puzzleWordCount" min="1" max="9">
+  <!-- <div class="container"> -->
+    <div class="gameBoard">
+    
+      <div class="gameTitle">
+        <h1>Hangman Game</h1>
       </div>
-
-        <div>
-          <p>Use Keyboard to Guess Letters</p>
+    
+      <div id="puzzle" class="puzzle"></div>
+      <div class="gameInfo">
+        <p id="usedLetters" class="gameElements">Letters Used :</p>
+        <p id="status">Remaining Guesses :</p>
+        <label for="puzzleWordCount">Word Count :</label>
+        <span id="rangeValue">#</span>
+    
+        <div class="slider">
+          <button id="reset" class="button">New Game</button>
+          <input type="range" id="wordCount" name="puzzleWordCount" min="1" max="9">
         </div>
-    </div>
-
-  </div>
+    
+      </div>
+      <div>
+    
+        <p class="instruction">Use Keyboard to Guess Letters</p>
+      </div>
+    
+    </div><!-- gameBoard -->
+  </div><!--container -->
+  
 
   <script src="/scripts/bundle.js"></script>
   
